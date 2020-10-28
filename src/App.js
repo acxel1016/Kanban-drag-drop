@@ -4,11 +4,9 @@ import { v4 as uuidv4 } from 'uuid';
 
 
 const itemsFromBackend = [
-  { id: uuidv4(), content: "1. Elaboración de prototipos para la página principal" },
-  { id: uuidv4(), content: "2. Elaborar la arquitectura de la información de las subpáginas y herramientas" },
-  { id: uuidv4(), content: "3. Elaboración del diseño UX/UI del servicio de correo electrónico" },
-  { id: uuidv4(), content: "4. Creación de barra de herramientas desplegable" },
-  { id: uuidv4(), content: "5. Crear un nuevo logotipo del Navegador" }
+  { id: uuidv4(), content: "1. Inventario de equipo de trabajo que se ocupara" },
+  { id: uuidv4(), content: "2. Compra de licencias de softwares necesarios para el proyecto" },
+  { id: uuidv4(), content: "3. Compra del equipo que se requerirá para el proyecto" },
 ];
 
 const columnsFromBackend = {
