@@ -4,14 +4,15 @@ import { v4 as uuidv4 } from 'uuid';
 
 
 const itemsFromBackend = [
-  { id: uuidv4(), content: "1. Inventario de equipo de trabajo que se ocupara" },
-  { id: uuidv4(), content: "2. Compra de licencias de softwares necesarios para el proyecto" },
-  { id: uuidv4(), content: "3. Compra del equipo que se requerirá para el proyecto" },
+  { id: uuidv4(), content: "1. Elegir y elaborar entre todo el equipo una opción de diseño" },
+  { id: uuidv4(), content: "2. Crear una arquitectura de diseño acorde para todo tipo de usuarios" },
+  { id: uuidv4(), content: "3. Establecer formas de uso más rápidas y sencillas" },
+  { id: uuidv4(), content: "4. Elegir los colores, formas y diseño de los botones y cuadros " },
 ];
 
 const columnsFromBackend = {
   [uuidv4()]: {
-    name: "Tareas del Primer Sprint",
+    name: "Tareas del Tercer Sprint",
     items: itemsFromBackend
   },
   [uuidv4()]: {
